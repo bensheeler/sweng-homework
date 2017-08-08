@@ -1,13 +1,3 @@
-# Lincoln Investment Software Engineering Homework
-
-Please complete as much of the two exercises as possible in a **maximum of one hour**.  We will be evaluating your code on correctness, completeness, and maintainability.  
-
-The solution requires [Visual Studio 2017](https://www.visualstudio.com/downloads/) (Community Edition is free) with MS Test enabled.  Tests have been written which you must make pass.
-
-When finished, please email [tplourde@lincolninvestment.com](mailto:tplourde@lincolninvestment.com) with a link to your fork of this repo with your solution.  If you prefer not to fork, please send us a URL where we can download a zip file of your implementation.  No email attachments or Pull Requests please.
-
-**Thank you for very much for taking the time to complete this homework assignment.** 
-
 ## 1. Descriptive Statistics
 
  A local charity needs to analyze data about contributions. Write a library  which accepts a semicolon-delimited collection of human-keyed monetary contributions as a string (e.g. `“5 ; $ 123.42; $5,401.56”`) and returns three statistics about them: average, median, and range all rounded to two decimal places.
