@@ -1,7 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SwEngHomework.Commissions;
 using System.IO;
-using System.Collections.Generic;
 
 namespace SwEngHomework.Tests.Commissions
 {
@@ -21,7 +20,7 @@ namespace SwEngHomework.Tests.Commissions
         {
             string input = File.ReadAllText(@"Commissions\input.json");
 
-            IDictionary<string, double> report = Calculator.CalculateCommissionsByAdvisor(input);
+            var report = Calculator.CalculateCommissionsByAdvisor(input);
 
             Assert.AreEqual(63.50, report["Joe"]);
             Assert.AreEqual(388.97, report["Karen"]);
